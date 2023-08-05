@@ -26,7 +26,7 @@ namespace thuvienonline
         private void IssueBook_Load(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database =Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =newlibrary;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
@@ -58,7 +58,7 @@ namespace thuvienonline
             {
                 String eid = txtEnrollment.Text;
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system;integrated security=true";
+                con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database = newlibrary;integrated security=true";
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
 
@@ -116,7 +116,7 @@ namespace thuvienonline
 
                     String eid = txtEnrollment.Text;
                     SqlConnection con = new SqlConnection();
-                    con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database =Library_management_system;integrated security=true";
+                    con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =newlibrary;integrated security=true";
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = con;
 

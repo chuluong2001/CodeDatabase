@@ -28,7 +28,7 @@ namespace thuvienonline
         private void btnSearchStudent_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database =Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =Library_management_system;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandText = cmd.CommandText = "select * from IssuedBooks where Student_Enrollment='" + txtEnterEnroll.Text+ "' and Book_Return_Date  IS NULL";
@@ -70,7 +70,7 @@ namespace thuvienonline
         private void btnReturn_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database =Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =Library_management_system;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             con.Open();

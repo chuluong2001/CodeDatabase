@@ -59,7 +59,7 @@ namespace thuvienonline
         {
             
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =  newlibrary;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
@@ -74,7 +74,7 @@ namespace thuvienonline
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =  newlibrary;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
@@ -95,7 +95,7 @@ namespace thuvienonline
                 bid = int.Parse(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
             }
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database = newlibrary;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
@@ -127,7 +127,7 @@ namespace thuvienonline
             if (MessageBox.Show("Data will be Update. ConFirm ?", "Success", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system;integrated security=true";
+                con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database = newlibrary;integrated security=true";
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
 
@@ -150,7 +150,7 @@ namespace thuvienonline
             if (MessageBox.Show("Data will be Delete. ConFirm ?", "Success", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system;integrated security=true";
+                con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database = newlibrary;integrated security=true";
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
 

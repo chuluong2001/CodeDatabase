@@ -47,7 +47,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
@@ -55,13 +54,10 @@
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -96,7 +92,7 @@
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(371, 120);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(594, 612);
+            this.panel4.Size = new System.Drawing.Size(597, 612);
             this.panel4.TabIndex = 16;
             // 
             // comboBox1
@@ -252,7 +248,6 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.btnExit);
             this.panel3.Controls.Add(this.btnRefresh);
             this.panel3.Controls.Add(this.btnSearch);
@@ -263,22 +258,12 @@
             this.panel3.Size = new System.Drawing.Size(353, 612);
             this.panel3.TabIndex = 1;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(82, 86);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(175, 134);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.White;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Black;
-            this.btnExit.Location = new System.Drawing.Point(82, 436);
+            this.btnExit.Location = new System.Drawing.Point(82, 234);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(175, 37);
             this.btnExit.TabIndex = 18;
@@ -291,7 +276,7 @@
             this.btnRefresh.BackColor = System.Drawing.Color.White;
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ForeColor = System.Drawing.Color.Black;
-            this.btnRefresh.Location = new System.Drawing.Point(82, 380);
+            this.btnRefresh.Location = new System.Drawing.Point(82, 161);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(175, 37);
             this.btnRefresh.TabIndex = 17;
@@ -304,7 +289,7 @@
             this.btnSearch.BackColor = System.Drawing.Color.White;
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSearch.Location = new System.Drawing.Point(82, 315);
+            this.btnSearch.Location = new System.Drawing.Point(82, 88);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(175, 44);
             this.btnSearch.TabIndex = 16;
@@ -314,7 +299,7 @@
             // 
             // txtEnrollment
             // 
-            this.txtEnrollment.Location = new System.Drawing.Point(52, 266);
+            this.txtEnrollment.Location = new System.Drawing.Point(44, 41);
             this.txtEnrollment.Multiline = true;
             this.txtEnrollment.Name = "txtEnrollment";
             this.txtEnrollment.Size = new System.Drawing.Size(244, 29);
@@ -326,7 +311,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(78, 230);
+            this.label9.Location = new System.Drawing.Point(78, 10);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(179, 20);
             this.label9.TabIndex = 9;
@@ -337,7 +322,6 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(0, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(965, 111);
@@ -348,27 +332,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(616, 37);
+            this.label1.Location = new System.Drawing.Point(382, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "Issue Book";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(253, 108);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // IssueBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(968, 733);
+            this.ClientSize = new System.Drawing.Size(980, 733);
             this.Controls.Add(this.panel1);
             this.Name = "IssueBook";
             this.Text = "IssueBook";
@@ -378,10 +352,8 @@
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -393,7 +365,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox txtEmail;
@@ -410,7 +381,6 @@
         private System.Windows.Forms.TextBox txtEnrollment;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnIssueB;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnSearch;

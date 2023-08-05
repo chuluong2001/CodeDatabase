@@ -33,7 +33,7 @@ namespace thuvienonline
             Int64 quan = Int64.Parse(txtbquan.Text);
 
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source =DESKTOP-V87NI7H\\SQLEXPRESS; database = Library_management_system; integrated security=True";
+            con.ConnectionString = "data source =ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database = newlibrary; integrated security=True";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection= con;
 
@@ -53,6 +53,26 @@ namespace thuvienonline
             {
                 this.Close();
             }
+        }
+
+        private void txtbauthor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpublication_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

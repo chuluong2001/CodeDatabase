@@ -49,7 +49,7 @@ namespace thuvienonline
 
 
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-V87NI7H\\SQLEXPRESS; database =Library_management_system;integrated security=true";
+            con.ConnectionString = "data source = ADMIN\\MSSQLSERVER01\\SQLEXPRESS; database =Library_management_system;integrated security=true";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
@@ -61,6 +61,16 @@ namespace thuvienonline
         }
 
         private void AddStudent_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
